@@ -1,0 +1,7 @@
+services:
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: relfost/alpine:curl-tini
+
